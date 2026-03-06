@@ -110,6 +110,19 @@ img {
     color: var(--primary-green);
 }
 .nav-links{
+    display:flex;
+    gap:30px;
+    align-items:center;
+}
+
+.logo img{
+    height:60px;
+    width:auto;
+}
+
+@media (max-width:768px){
+
+.nav-links{
     display:none;
     flex-direction:column;
     position:absolute;
@@ -122,31 +135,12 @@ img {
     gap:15px;
 }
 
-
-.logo img{
-    height:60px;
-    width:auto;
-}
-
-@media (max-width:768px){
-
-header{
-    padding:10px 15px;
-}
-
-.logo span{
-    font-size:16px;
-    font-weight:700;
-}
-
 .nav-links.active{
     display:flex;
 }
 
 .hamburger{
     display:block;
-    font-size:26px;
-    cursor:pointer;
 }
 }
 
@@ -779,7 +773,7 @@ header{
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    gap: 60;
+    gap: 60px;
 }
 /* ===============================
    CONTACT SECTION
@@ -1013,5 +1007,6 @@ header{
     white-space: nowrap;
 
 }
+
 
 
