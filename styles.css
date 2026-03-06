@@ -109,6 +109,19 @@ img {
     font-weight: 700;
     color: var(--primary-green);
 }
+.nav-links{
+    display:none;
+    flex-direction:column;
+    position:absolute;
+    top:70px;
+    left:0;
+    width:100%;
+    background:#fff;
+    text-align:center;
+    padding:20px 0;
+    gap:15px;
+}
+
 
 .logo img{
     height:60px;
@@ -126,19 +139,6 @@ header{
     font-weight:700;
 }
 
-.nav-links{
-    display:none;
-    flex-direction:column;
-    position:absolute;
-    top:70px;
-    left:0;
-    width:100%;
-    background:#fff;
-    text-align:center;
-    padding:20px 0;
-    gap:15px;
-}
-
 .nav-links.active{
     display:flex;
 }
@@ -148,7 +148,10 @@ header{
     font-size:26px;
     cursor:pointer;
 }
+}
 
+.hamburger {
+    display: none;
 }
 
 .nav-links li a {
@@ -1010,4 +1013,5 @@ header{
     white-space: nowrap;
 
 }
+
 
