@@ -137,30 +137,28 @@ img {
 }
 
 /* MOBILE MENU */
-
 @media(max-width:768px){
 
-.nav-links{
-    position:absolute;
-    top:70px;
-    left:0;
-    width:100%;
-    background:white;
-    flex-direction:column;
-    align-items:center;
-    display:none;
-    padding:20px 0;
-    gap:15px;
-}
+    .nav-links{
+        position:absolute;
+        top:70px;
+        left:0;
+        width:100%;
+        background:white;
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+        padding:20px 0;
+        display:none;
+    }
 
-.nav-links.active{
-    display:flex;
-}
+    .nav-links.active{
+        display:flex;
+    }
 
-.hamburger{
-    display:block;
-}
-
+    .hamburger{
+        display:block;
+    }
 .logo h2{
     font-size:18px;
 }
@@ -1013,6 +1011,7 @@ img {
     white-space: nowrap;
 
 }
+
 
 
 
