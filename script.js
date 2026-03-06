@@ -52,4 +52,12 @@ function closeGallery() {
 
 document.addEventListener("keydown", e => {
     if (e.key === "Escape") closeGallery();
+
+    // ✅ ADD THIS CODE BELOW EVERYTHING
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+
 });
